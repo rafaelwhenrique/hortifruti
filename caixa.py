@@ -12,7 +12,7 @@ def mostrar_produtos(produtos):
     for categoria, itens in produtos.items():
         print(f"\nCategoria: {categoria}")
         for nome, info in itens.items():
-            print(f"Produto: {nome}, Preço: R${info['preco']} - Quantidade: {info['quantidade']}")
+            print(f"Produto: {nome}, Preço: R${info['preco']} - Quantidade: {info['peso']}")
 
 def forma_pagamento():
     print("\nFormas de pagamento disponíveis:")
@@ -56,7 +56,7 @@ def realizar_compra(produtos):
         if categoria in produtos:
             print(f"\nProdutos da categoria {categoria}:")
             for nome, info in produtos[categoria].items():
-                print(f"{nome}: R${info['preco']} - Quantidade: {info['quantidade']}")
+                print(f"{nome}: R${info['preco']} - Quantidade: {info['peso']}")
 
             produto_escolhido = input("\nDigite o nome do produto que deseja comprar ou 'voltar' para escolher outra categoria: ").title()
 
