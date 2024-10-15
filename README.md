@@ -13,8 +13,8 @@ Antes de começar, certifique-se de ter o Python instalado em seu sistema. Você
 O projeto possui a seguinte estrutura de diretórios:
 
 /hortifruti
-    ├── caixa.py       # Contém a lista de produtos e suas informações
-    └── produtos.py  # Arquivo principal do sistema de caixa
+    ├── caixa.py
+    └── produtos.py
 
 
 ### Instalando Dependências
