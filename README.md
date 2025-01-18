@@ -38,8 +38,9 @@ python main.py
 
 ## Estrutura do Projeto
 - app.py: Arquivo principal para executar o sistema.
-- admin/: Contém os modelos de dados (produtos, fornecedores, etc.).
-- funcionalidade/: Contém a lógica de caixa, e cadastro de cliente.
+- hortifruti.db: Contém os modelos de dados (produtos, fornecedores, etc.).
+- admin/: Contém a lógica de gestão de estoque, cadastro de fornecedor, cadastro de funcionário e produto.
+- funcionario/: Contém a lógica de caixa e cadastro de cliente.
   
 ## Contribuição
 
