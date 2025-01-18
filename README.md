@@ -37,7 +37,7 @@ python main.py
 ```
 
 ## Estrutura do Projeto
-- main.py: Arquivo principal para executar o sistema.
+- app.py: Arquivo principal para executar o sistema.
 - admin/: Contém os modelos de dados (produtos, fornecedores, etc.).
 - funcionalidade/: Contém a lógica de caixa, e cadastro de cliente.
   
