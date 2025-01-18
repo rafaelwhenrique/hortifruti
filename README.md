@@ -38,11 +38,9 @@ python main.py
 
 ## Estrutura do Projeto
 - main.py: Arquivo principal para executar o sistema.
-- models/: Contém os modelos de dados (produtos, fornecedores, etc.).
-- controllers/: Contém a lógica de controle de fluxo de dados.
-- views/: Contém a interface do usuário e visualizações.
-- utils/: Contém utilitários e funções auxiliares.
-
+- admin/: Contém os modelos de dados (produtos, fornecedores, etc.).
+- funcionalidade/: Contém a lógica de caixa, e cadastro de cliente.
+  
 ## Contribuição
 
 1. Faça um fork do projeto
