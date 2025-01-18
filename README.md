@@ -13,12 +13,10 @@ O sistema de hortifruti é uma aplicação desenvolvida em Python para gerenciar
 - Registro de vendas
 - Registro de compras
 - Controle de estoque
-- Geração de relatórios
 
 ## Requisitos
 
 - Python 3.x
-- Bibliotecas Python (listadas no arquivo `requirements.txt`)
 
 ## Instalação
 
@@ -29,10 +27,6 @@ O sistema de hortifruti é uma aplicação desenvolvida em Python para gerenciar
 2. Navegue até o diretório do projeto:
     ```bash
     cd hortifruti
-    ```
-3. Instale as dependências:
-    ```bash
-    pip install -r requirements.txt
     ```
 
 ## Uso
